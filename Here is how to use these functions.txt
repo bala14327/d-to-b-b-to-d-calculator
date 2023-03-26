@@ -1,0 +1,9 @@
+# Decimal to Binary
+decimal_num = 42
+binary_num = decimal_to_binary(decimal_num)
+print(binary_num)  # Output: 101010
+
+# Binary to Decimal
+binary_num = "101010"
+decimal_num = binary_to_decimal(binary_num)
+print(decimal_num)  # Output: 42
