@@ -30,6 +30,7 @@
       <input type="button" value="=" onclick="document.getElementById('result').value=eval(document.getElementById('result').value)">
       <input type="button" value="B" onclick="document.getElementById('result').value=parseInt(document.getElementById('result').value, 10).toString(2)">
       <input type="button" value="D" onclick="document.getElementById('result').value=parseInt(document.getElementById('result').value, 2)">
+      <input type="button" value="&#8592;" onclick="document.getElementById('result').value = document.getElementById('result').value.slice(0, -1)">
     </form>
   </body>
 </html>
